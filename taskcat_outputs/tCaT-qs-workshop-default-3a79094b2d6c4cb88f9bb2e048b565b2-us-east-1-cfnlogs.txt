@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------
+Region: us-east-1
+StackName: tCaT-qs-workshop-default-3a79094b2d6c4cb88f9bb2e048b565b2
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [VPCStack].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                          ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------  ---------------------------------------------------------------------------------------------
+2022-07-06 21:45:09.050000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-qs-workshop-default-3a79094b2d6c4cb88f9bb2e048b565b2  The following resource(s) failed to create: [VPCStack].
+2022-07-06 21:45:08.008000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  VPCStack                                                   S3 error: Access Denied
+                                                                                                                                             For more information check http://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html
+2022-07-06 21:45:06.288000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack
+2022-07-06 21:44:57.583000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-qs-workshop-default-3a79094b2d6c4cb88f9bb2e048b565b2  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Wednesday, 06. July 2022 09:46PM
+-----------------------------------------------------------------------------
+
